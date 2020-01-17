@@ -1,20 +1,20 @@
 {
-  "name": "react-app-template",
+  "name": "try-react",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrueSib-Coders/react-app-template.git"
+    "url": "git+https://github.com/ilyabaykalov/try-react.git"
   },
   "author": "TrueSib Coders",
   "bugs": {
-    "url": "https://github.com/TrueSib-Coders/react-app-template/issues"
+    "url": "https://github.com/ilyabaykalov/try-react/issues"
   },
-  "homepage": "https://github.com/TrueSib-Coders/react-app-template#readme",
+  "homepage": "https://github.com/ilyabaykalov/try-react#readme",
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
