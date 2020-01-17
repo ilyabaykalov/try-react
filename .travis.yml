@@ -1,0 +1,10 @@
+## Язык разработки
+language: javascript
+
+## Отправлять уведомление на почту, если сборка не прошла
+notifications:
+  email:
+    recipients:
+      - enot_boris@icloud.com
+    on_success: never # default: change
+    on_failure: always # default: always

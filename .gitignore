@@ -1,0 +1,11 @@
+# Node Modules
+/node_modules
+
+# Distribution 
+/dist
+
+# Idea
+/.idea
+
+# Package-lock
+package-lock.json
