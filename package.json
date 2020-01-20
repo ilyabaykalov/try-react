@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "prod": "webpack --mode production",
-    "eslint": "node_modules/.bin/eslint src/",
+    "eslint": "node_modules/.bin/eslint src/ --max-warnings=0",
     "prettier": "lint-staged"
   },
   "repository": {
@@ -46,7 +46,7 @@
   },
   "lint-staged": {
     "src/**/*.js": [
-      "node_modules/.bin/eslint --max-warnings=0",
+      "eslint",
       "prettier --write",
       "git add"
     ]
