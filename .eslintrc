@@ -9,11 +9,6 @@
     "es6": true
   },
   "rules": {
-    "no-console": 0,
-    "indent": [
-      "warning",
-      2
-    ],
     "jsx-quotes": [
       1,
       "prefer-double"
