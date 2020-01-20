@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
     "prod": "webpack --mode production",
-    "pre-commit": "lint-staged",
-    "eslint": "node_modules/.bin/eslint src/"
+    "eslint": "node_modules/.bin/eslint src/",
+    "prettier": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
     "react-dom": "^16.12.0"
   },
   "lint-staged": {
-    "*.{js, jsx}": [
+    "src/**/*.js": [
       "node_modules/.bin/eslint --max-warnings=0",
       "prettier --write",
       "git add"
