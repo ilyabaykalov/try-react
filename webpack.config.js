@@ -2,10 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/public/index.js',
     output: {
         path: path.join(__dirname, '/prod'),
-        filename: 'index-bundle.js',
+        filename: 'index-prod.js',
     },
     module: {
         rules: [
@@ -31,8 +31,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html',
-            favicon: './src/favicon.ico',
+            template: './src/public/index.html',
+            favicon: './src/public/favicon.ico',
         }),
     ],
 };
