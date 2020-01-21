@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../components/App/App.js';
+import HeaderNav from '../components/HeaderNav/HeaderNav';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<HeaderNav />, document.getElementById('root'));

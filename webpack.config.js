@@ -4,8 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/public/index.js',
     output: {
-        path: path.join(__dirname, '/prod'),
-        filename: 'index-prod.js',
+        path: path.join(__dirname, '/dist'),
+        filename: 'index-bundle.js',
     },
     module: {
         rules: [
@@ -19,14 +19,13 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
-                test: /\.(jpe?g|png|gif|svg)$/i,
-                use: [{
-                    loader: 'url-loader',
-                    options: {
-                        mimetype: 'image/png',
-                    },
-                }],
-            },
+                test: /\.(png|jpe?g|gif|ttf|svg)?$/,
+                exclude: /node_modules/,
+                loader: 'file-loader',
+                options: {
+                    name: 'assets/[name].[ext]'
+                }
+            }
         ],
     },
     plugins: [

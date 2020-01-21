@@ -1,0 +1,5 @@
+@import '../../public/style/style-guide';
+
+.titles {
+  @include flex-box();
+}

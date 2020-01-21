@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open --hot",
-    "prod": "webpack --mode production",
+    "build": "webpack --mode production",
+    "delete": "del-cli --force ./dist",
     "eslint": "node_modules/.bin/eslint src/ --max-warnings=0",
     "prettier": "lint-staged"
   },
@@ -24,11 +25,13 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.2",
+    "del-cli": "^3.0.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-config-react-app": "^5.1.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.0",
+    "file-loader": "^5.0.2",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^4.0.10",
     "lint-staged": "^10.0.0",
