@@ -8,7 +8,7 @@ class HeaderNav extends Component {
 		return (
 			<div className={'titles'}>
 				<MenuTitle text={'Услуги'} />
-				<MenuTitle text={'Проекта'} />
+				<MenuTitle text={'Проекты'} />
 				<MenuTitle text={'Команда'} />
 			</div>
 		);

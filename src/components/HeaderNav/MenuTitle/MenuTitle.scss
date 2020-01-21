@@ -1,6 +1,20 @@
 @import '../../../public/style/style-guide';
 
 .title {
-  color: $main-color-1;
+  margin: auto;
+  color: $black;
+  @include main-font(24px);
+}
 
+.menu-title {
+  margin: 0 15px;
+
+  hr {
+    border: 0;
+    height: 5px;
+  }
+
+  &:hover hr {
+    background-color: $main-color-1;
+  }
 }
