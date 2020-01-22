@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HeaderNav from '../components/HeaderNav/HeaderNav';
+import Navbar from '../components/Navbar/Navbar';
 
-ReactDOM.render(<HeaderNav />, document.getElementById('root'));
+ReactDOM.render(<Navbar />, document.getElementById('header'));

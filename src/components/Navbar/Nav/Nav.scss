@@ -1,0 +1,6 @@
+@import '../../../public/style/style-guide';
+
+.items {
+  @include flex-box();
+  @include justify-content(flex-end)
+}

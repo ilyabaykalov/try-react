@@ -1,12 +1,6 @@
 @import '../../../public/style/style-guide';
 
-.title {
-  margin: auto;
-  color: $black;
-  @include main-font(24px);
-}
-
-.item {
+.nav-item {
   margin: 0 15px;
 
   hr {
@@ -17,4 +11,10 @@
   &:hover hr {
     background-color: $main-color-1;
   }
+}
+
+.nav-item__title {
+  margin: auto;
+  color: $black;
+  @include main-font(24px);
 }

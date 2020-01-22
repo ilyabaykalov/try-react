@@ -2,5 +2,4 @@
 
 .items {
   @include flex-box();
-  @include justify-content(flex-end)
 }
