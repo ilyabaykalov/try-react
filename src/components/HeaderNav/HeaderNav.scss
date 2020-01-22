@@ -1,5 +1,6 @@
 @import '../../public/style/style-guide';
 
-.titles {
+.items {
   @include flex-box();
+  @include justify-content(flex-end)
 }
