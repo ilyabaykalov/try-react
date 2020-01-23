@@ -17,5 +17,7 @@
 .nav-item__title {
   margin: auto;
   color: $black;
-  @include main-font(24px);
+  @include main-font(20px);
+  align-items: center;
+
 }

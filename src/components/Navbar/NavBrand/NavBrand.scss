@@ -1,0 +1,16 @@
+@import 'src/public/style/style-guide';
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand__logo {
+  width: 50px;
+  align-items: center;
+}
+
+.brand__title {
+  margin: 0 0 0 5px;
+  @include main-font(20px);
+}

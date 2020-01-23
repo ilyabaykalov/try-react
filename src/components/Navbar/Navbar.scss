@@ -1,0 +1,6 @@
+@import 'src/public/style/style-guide';
+
+.navbar {
+  @include flex-box();
+  @include justify-content(space-between)
+}
