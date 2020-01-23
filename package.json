@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "delete": "del-cli --force ./dist",
     "eslint": "node_modules/.bin/eslint src/ --max-warnings=0",
-    "prettier": "lint-staged"
+    "prettier": "prettier --write 'src/**/*.js'"
   },
   "repository": {
     "type": "git",

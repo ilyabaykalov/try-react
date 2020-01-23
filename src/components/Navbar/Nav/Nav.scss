@@ -1,6 +1,6 @@
-@import '../../../public/style/style-guide';
+@import 'src/public/style/style-guide';
 
-.items {
+.nav-items {
   @include flex-box();
   @include justify-content(flex-end)
 }

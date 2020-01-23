@@ -2,13 +2,14 @@
 
 .nav-item {
   margin: 0 15px;
+  cursor: pointer;
 
-  hr {
+  .nav-item__delimiter {
     border: 0;
     height: 5px;
   }
 
-  &:hover hr {
+  &:hover .nav-item__delimiter {
     background-color: $main-color-1;
   }
 }

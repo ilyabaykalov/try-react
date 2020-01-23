@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './NavItem.scss';
 
 const propTypes = {
-	title: PropTypes.string,
+	title: PropTypes.string.isRequired,
 };
 
 class NavItem extends Component {
@@ -12,7 +12,7 @@ class NavItem extends Component {
 		return (
 			<div className={'nav-item'}>
 				<p className={'nav-item__title'}>{this.props.title}</p>
-				<hr />
+				<hr className={'nav-item__delimiter'} />
 			</div>
 		);
 	}
