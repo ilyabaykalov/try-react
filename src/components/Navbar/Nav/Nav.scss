@@ -2,5 +2,6 @@
 
 .nav-items {
   @include flex-box();
-  @include justify-content(flex-end)
+  @include justify-content(flex-end);
+  margin: 30px 0 0 0;
 }
