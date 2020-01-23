@@ -23,7 +23,7 @@ class NavBrand extends Component {
 	}
 }
 
-NavBrand.displayName = 'NavBrand';
+NavBrand.displayName = 'Brand';
 NavBrand.propTypes = propTypes;
 
 export default NavBrand;
