@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Nav from './Nav/Nav';
-import NavBrand from './NavBrand/NavBrand';
+import Nav from '../../components/Nav/Nav';
+import NavBrand from '../../components/NavBrand/NavBrand';
 
 import './Navbar.scss';
 
@@ -15,7 +15,7 @@ class Navbar extends Component {
 				{ title: 'Команда' },
 				{ title: 'Контакты' },
 			],
-			href: 'src/components/Navbar/NavBrand/logo.svg',
+			href: 'src/components/NavBrand/logo.svg',
 			brandTitle: 'TrueSib Coders',
 		};
 	}
